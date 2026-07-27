@@ -1,0 +1,4 @@
+.zcode/
+__pycache__
+
+.DS_Store

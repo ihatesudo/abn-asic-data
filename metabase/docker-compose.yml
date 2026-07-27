@@ -1,0 +1,18 @@
+services:
+  metabase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: metabase_duckdb:latest
+    container_name: metabase_duckdb
+    ports:
+      - "3000:3000"
+    environment:
+      MB_PLUGINS_DIR: /home/metabase/plugins/
+      MB_DB_FILE: /home/metabase/data/metabase.db
+    volumes:
+      # The analytics database — mounted read-only
+      - ../asic.duckdb:/data/asic.duckdb:ro
+      # Persist Metabase's own config (users, dashboards, saved questions)
+      - ./metabase-data:/home/metabase/data
+    restart: unless-stopped
