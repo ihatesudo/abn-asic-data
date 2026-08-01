@@ -33,6 +33,8 @@ If use free Data Visisulisation / BI tool **metabase** to load up dataset (this 
 
 HSC course distribution 2025, "Which course is most subscribed and sort of competitive analysis"
 
+How many student select physic at the end of their high school.
+
 <img width="1638" height="1638" alt="image" src="https://github.com/user-attachments/assets/5d4cb697-4428-4569-a0a5-fbf2363dfcbd" />
 
 ## Visual
@@ -40,8 +42,6 @@ HSC course distribution 2025, "Which course is most subscribed and sort of compe
 <img width="1884" height="800" alt="image" src="https://github.com/user-attachments/assets/50c1988d-2cdc-48f5-be46-030ef38b7ad8" />
 
 <img width="3040" height="1666" alt="image" src="https://github.com/user-attachments/assets/903d22a0-f26f-466e-be61-ea366673bdc1" />
-
-
 
 Two authoritative Australian business datasets, joined on ACN:
 - **ASIC** (4.4M name records → 3.98M companies) — registration history, name changes, status
