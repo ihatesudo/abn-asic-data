@@ -29,7 +29,7 @@ If use free Data Visisulisation / BI tool **metabase** to load up dataset (this 
 - Where does the restaurant goes ? which suburb is suitable for retail success and (eventually sale of the business) ?
   BUTCHERS BUFFET EASTWOOD PTY LTD (was) -> BUTCHERS BUFFET CASTLE HILL PTY LTD
 
-## side track
+## Side track
 
 HSC course distribution 2025, "Which course is most subscribed and sort of competitive analysis"
 
@@ -46,6 +46,9 @@ How many student select physic at the end of their high school.
 * How many sole trader in each state, are they skewed ?
   
 <img width="3040" height="1666" alt="image" src="https://github.com/user-attachments/assets/903d22a0-f26f-466e-be61-ea366673bdc1" />
+
+* You can probably ask questions like: Which type of business structure is most popular over last 10 yrs, 100 yrs. Trust or Company.
+  There is a dimension table for diff types
 
 Two authoritative Australian business datasets, joined on ACN:
 - **ASIC** (4.4M name records → 3.98M companies) — registration history, name changes, status
