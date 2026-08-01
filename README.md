@@ -9,7 +9,7 @@ and bit of HSC test enrolment data 2025.
 
 Since i have crunched the data for ya, you can inspect and play with data source in DuckDB, or BYO
 
-If use Data Vis (BI) tool **Metastore** to load up dataset (this repo is about) to answer questions like:
+If use free Data Visisulisation / BI tool **metabase** to load up dataset (this repo is about) to answer questions like:
 
 - What is the oldest business in australia:
   Westpac opened in 1813, and guess who else ?
