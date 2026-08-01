@@ -1,4 +1,8 @@
-# ASIC + ABR Company Data — DuckDB Analytics DB
+# ASIC + ABR Company Data Explorer 
+
+- Python Crawler and ETL
+- DuckDB Analytics DB
+- Metabase
 
 A normalized, analytics-ready DuckDB database joining the **ASIC company name
 register** with the **ABR (Australian Business Register) bulk extract**.
