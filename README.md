@@ -3,7 +3,45 @@
 A normalized, analytics-ready DuckDB database joining the **ASIC company name
 register** with the **ABR (Australian Business Register) bulk extract**.
 
+and bit of HSC test enrolment data 2025.
+
 ## What's in here
+
+Since i have crunched the data for ya, you can inspect and play with data source in DuckDB, or BYO
+
+If use Data Vis (BI) tool **Metastore** to load up dataset (this repo is about) to answer questions like:
+
+- What is the oldest business in australia:
+  Westpac opened in 1813, and guess who else ?
+- How long Costco register first abn then wait and scale to get the first GST paid:
+  2y (probably realistic Australian speed for get supply chain and infra done)
+- Where we are in oversea business M&A and purchase records:
+  Recently MLC, David Jones is no longer national owned, guess who bought them ?
+- Umbrella company stats:
+  Which franchise is most successful in this country ? (indication of dominance).
+  Is this anytime fitness or plus fitness.
+  
+- Which industry experience lowest death rate (ABN got de-registration and ASIC has outline news for bankruptcy and insolvency).
+  
+- What happened to specific well known business:
+  e.g. BORAL (L G C) (AUST) LTD ->  ORIGIN (LGC) (AUST) PTY LIMITED
+  
+- Where does the restaurant goes ? which suburb is suitable for retail success and (eventually sale of the business) ?
+  BUTCHERS BUFFET EASTWOOD PTY LTD (was) -> BUTCHERS BUFFET CASTLE HILL PTY LTD
+
+## side track
+
+HSC course distribution 2025, "Which course is most subscribed and sort of competitive analysis"
+
+<img width="1638" height="1638" alt="image" src="https://github.com/user-attachments/assets/5d4cb697-4428-4569-a0a5-fbf2363dfcbd" />
+
+## Visual
+
+<img width="1884" height="800" alt="image" src="https://github.com/user-attachments/assets/50c1988d-2cdc-48f5-be46-030ef38b7ad8" />
+
+<img width="3040" height="1666" alt="image" src="https://github.com/user-attachments/assets/903d22a0-f26f-466e-be61-ea366673bdc1" />
+
+
 
 Two authoritative Australian business datasets, joined on ACN:
 - **ASIC** (4.4M name records → 3.98M companies) — registration history, name changes, status
