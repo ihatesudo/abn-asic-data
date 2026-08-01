@@ -39,8 +39,12 @@ How many student select physic at the end of their high school.
 
 ## Visual
 
+* Which type of business (infer from their name if u don't have asic paid data) is mostly wanted by (foreign) investor ?
+
 <img width="1884" height="800" alt="image" src="https://github.com/user-attachments/assets/50c1988d-2cdc-48f5-be46-030ef38b7ad8" />
 
+* How many sole trader in each state, are they skewed ?
+  
 <img width="3040" height="1666" alt="image" src="https://github.com/user-attachments/assets/903d22a0-f26f-466e-be61-ea366673bdc1" />
 
 Two authoritative Australian business datasets, joined on ACN:
